@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[<p class="testOutput" style="color:green; font-size:1em;">The element with locator 'css=main div.ant-col a[href]:nth('0')' was found with text 'TestSurvey'!</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p class="testOutput" style="color:green; font-size:1em;">The element with locator 'css=div.header__actions a:contains('Register')' was found!</p>]]>
+    </line>
+  </reporter-output>
+  <suite name="Pollfish QA test" duration-ms="24576" started-at="2021-05-26T20:11:42Z" finished-at="2021-05-26T20:12:07Z">
+    <groups>
+    </groups>
+    <test name="Test Pollfish basic flow" duration-ms="24576" started-at="2021-05-26T20:11:42Z" finished-at="2021-05-26T20:12:07Z">
+      <class name="com.pollfishqa.quality.PollfishQATest">
+        <test-method status="PASS" signature="configureSuiteSettings(org.testng.ITestContext)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="configureSuiteSettings" is-config="true" duration-ms="9672" started-at="2021-05-26T20:11:33Z" finished-at="2021-05-26T20:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47747fb9]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- configureSuiteSettings -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="45" started-at="2021-05-26T20:11:42Z" finished-at="2021-05-26T20:11:42Z">
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="contextInitBeforeTest(org.testng.ITestContext)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="contextInitBeforeTest" is-config="true" duration-ms="4677" started-at="2021-05-26T20:11:43Z" finished-at="2021-05-26T20:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47747fb9]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- contextInitBeforeTest -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5" started-at="2021-05-26T20:11:47Z" finished-at="2021-05-26T20:11:47Z">
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="6" started-at="2021-05-26T20:11:47Z" finished-at="2021-05-26T20:11:47Z">
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="contextInitBeforeClass(org.testng.ITestContext)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="contextInitBeforeClass" is-config="true" duration-ms="10" started-at="2021-05-26T20:11:47Z" finished-at="2021-05-26T20:11:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47747fb9]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- contextInitBeforeClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="9" started-at="2021-05-26T20:11:47Z" finished-at="2021-05-26T20:11:47Z">
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="loadData()[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="loadData" is-config="true" duration-ms="467" started-at="2021-05-26T20:11:47Z" finished-at="2021-05-26T20:11:48Z">
+        </test-method> <!-- loadData -->
+        <test-method status="PASS" signature="createData()[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="createData" is-config="true" duration-ms="16528" started-at="2021-05-26T20:11:48Z" depends-on-methods="com.pollfishqa.quality.PollfishQATest.loadData" finished-at="2021-05-26T20:12:04Z">
+        </test-method> <!-- createData -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="4" started-at="2021-05-26T20:12:04Z" finished-at="2021-05-26T20:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pollfishqa.quality.PollfishQATest.testStep_1()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="contextInitBeforeMethod(org.testng.ITestContext)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="contextInitBeforeMethod" is-config="true" duration-ms="5" started-at="2021-05-26T20:12:04Z" finished-at="2021-05-26T20:12:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47747fb9]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- contextInitBeforeMethod -->
+        <test-method status="PASS" signature="testStep_1()[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="testStep_1" duration-ms="470" started-at="2021-05-26T20:12:04Z" description="Verify survey creation after new researcher registration" finished-at="2021-05-26T20:12:05Z">
+        </test-method> <!-- testStep_1 -->
+        <test-method status="PASS" signature="cleanContextOnMethod(org.testng.ITestContext)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="cleanContextOnMethod" is-config="true" duration-ms="3" started-at="2021-05-26T20:12:05Z" finished-at="2021-05-26T20:12:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47747fb9]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- cleanContextOnMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="11" started-at="2021-05-26T20:12:05Z" finished-at="2021-05-26T20:12:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pollfishqa.quality.PollfishQATest.testStep_1()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2021-05-26T20:12:05Z" finished-at="2021-05-26T20:12:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pollfishqa.quality.PollfishQATest.testStep_2()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="contextInitBeforeMethod(org.testng.ITestContext)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="contextInitBeforeMethod" is-config="true" duration-ms="12" started-at="2021-05-26T20:12:05Z" finished-at="2021-05-26T20:12:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47747fb9]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- contextInitBeforeMethod -->
+        <test-method status="PASS" signature="testStep_2()[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="testStep_2" duration-ms="1566" started-at="2021-05-26T20:12:05Z" description="Verify user has been succesfully logged out" depends-on-methods="com.pollfishqa.quality.PollfishQATest.testStep_1" finished-at="2021-05-26T20:12:07Z">
+        </test-method> <!-- testStep_2 -->
+        <test-method status="PASS" signature="cleanContextOnMethod(org.testng.ITestContext)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="cleanContextOnMethod" is-config="true" duration-ms="4" started-at="2021-05-26T20:12:07Z" finished-at="2021-05-26T20:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47747fb9]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- cleanContextOnMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="4" started-at="2021-05-26T20:12:07Z" finished-at="2021-05-26T20:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pollfishqa.quality.PollfishQATest.testStep_2()]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterClassClean(org.testng.ITestContext)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="afterClassClean" is-config="true" duration-ms="5" started-at="2021-05-26T20:12:07Z" finished-at="2021-05-26T20:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47747fb9]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- afterClassClean -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="springTestContextAfterTestClass" is-config="true" duration-ms="7" started-at="2021-05-26T20:12:07Z" finished-at="2021-05-26T20:12:07Z">
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="cleanContextOnTest(org.testng.ITestContext)[pri:0, instance:com.pollfishqa.quality.PollfishQATest@a74868d]" name="cleanContextOnTest" is-config="true" duration-ms="290" started-at="2021-05-26T20:12:07Z" finished-at="2021-05-26T20:12:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47747fb9]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- cleanContextOnTest -->
+      </class> <!-- com.pollfishqa.quality.PollfishQATest -->
+    </test> <!-- Test Pollfish basic flow -->
+  </suite> <!-- Pollfish QA test -->
+</testng-results>

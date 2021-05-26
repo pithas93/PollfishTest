@@ -1,0 +1,15 @@
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/pageObjects/WebsitePO.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/businessObjects/DashboardBO.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/pageObjects/SurveyPO.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/common/LocatorAccessor.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/businessObjects/BaseBo.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/dataLoader/DataLoader.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/enums/AccountGoal.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/dtos/Registration.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/pageObjects/DashboardPO.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/pageObjects/RegistrationPO.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/common/Commands.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/businessObjects/SurveyBO.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/pageObjects/HeaderMenuPO.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/businessObjects/RegistrationBO.java
+/Users/Pithas/IdeaPojects/PollfishQA/src/main/java/com/pollfishqa/quality/enums/ReferralSource.java
